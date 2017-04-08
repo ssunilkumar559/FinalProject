@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AddingViewController.h
 //  ProjectDraft
 //
 //  Created by Hasibul Shishir on 4/8/17.
@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface AddingViewController : UIViewController
 
 @end
-

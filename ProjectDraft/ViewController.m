@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "CoreDataStack.h"
+#import "Product+CoreDataProperties.h"
 
 @interface ViewController ()
+{
+    
+    NSMutableArray *productArray;
+}
 
 @end
 
@@ -16,14 +22,112 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self getData];
 }
+
+-(void) getData
+{
+    
+    CoreDataStack *cds = [CoreDataStack sharedStack];
+    [cds persistentContainer];
+    
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Product" inManagedObjectContext:cds.persistentContainer.viewContext];
+    [fetchRequest setEntity:entity];
+    
+    NSError *error = nil;
+    NSArray *fetchedObjects = [cds.persistentContainer.viewContext executeFetchRequest:fetchRequest error:&error];
+    if (fetchedObjects == nil) {
+        //
+    }else{
+        
+        productArray = [[NSMutableArray alloc] init];
+
+        [productArray addObjectsFromArray:fetchedObjects];
+        
+    }
+    
+    [self.tableView reloadData];
+}
+
+
+
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void) viewDidAppear:(BOOL)animated
+
+
+
+{
+    [productArray removeAllObjects];
+    [self getData];
+    [self.tableView reloadData];
+    
+    
+}
+
+
+
+
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    
+    
+    return 10;
+}
+
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    Product *product = [productArray objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ - %@ ", product.pName, product.pPrice];
+    
+    return cell;
+    
+}
+
+
+
+
+- (IBAction)switchViewPressed:(UIBarButtonItem *)sender {
+    
+    
+    
+    UIViewAnimationOptions transition;
+    if (self.myView1.superview) { // view 1 is already visible
+        newView = self.myView2;
+        oldView = self.myView1;
+        
+        transition = UIViewAnimationOptionTransitionFlipFromRight;
+    } else { // view 2 is visible
+        
+        newView = self.myView1;
+        oldView = self.myView2;
+        transition = UIViewAnimationOptionTransitionFlipFromLeft;
+    }
+    
+    
+    [UIView transitionFromView:newView toView:oldView duration:.1 options:transition completion:^(BOOL finished) {
+        [UIView transitionFromView:oldView toView:newView duration:.2 options:transition completion:nil];
+    }];
+    
+
+}
+
 
 
 @end

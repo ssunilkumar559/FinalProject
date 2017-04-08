@@ -14,6 +14,10 @@
 		DB6BF1611E98AEBA00F7385A /* ProjectDraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF15F1E98AEBA00F7385A /* ProjectDraft.xcdatamodeld */; };
 		DB6BF1631E98AEBA00F7385A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6BF1621E98AEBA00F7385A /* Assets.xcassets */; };
 		DB6BF1661E98AEBA00F7385A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6BF1641E98AEBA00F7385A /* LaunchScreen.storyboard */; };
+		DB6BF16F1E98B0E100F7385A /* AddingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF16E1E98B0E100F7385A /* AddingViewController.m */; };
+		DB6BF1781E98B53200F7385A /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1771E98B53200F7385A /* CoreDataStack.m */; };
+		DB6BF17D1E98BA1500F7385A /* Product+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */; };
+		DB6BF17E1E98BA1500F7385A /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,14 @@
 		DB6BF1621E98AEBA00F7385A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6BF1651E98AEBA00F7385A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB6BF1671E98AEBA00F7385A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6BF16D1E98B0E100F7385A /* AddingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddingViewController.h; sourceTree = "<group>"; };
+		DB6BF16E1E98B0E100F7385A /* AddingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddingViewController.m; sourceTree = "<group>"; };
+		DB6BF1761E98B53200F7385A /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = ../CoreDataStack.h; sourceTree = "<group>"; };
+		DB6BF1771E98B53200F7385A /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = ../CoreDataStack.m; sourceTree = "<group>"; };
+		DB6BF1791E98BA1500F7385A /* Product+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataClass.h"; sourceTree = "<group>"; };
+		DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataClass.m"; sourceTree = "<group>"; };
+		DB6BF17B1E98BA1500F7385A /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,10 @@
 		DB6BF1471E98AEBA00F7385A = {
 			isa = PBXGroup;
 			children = (
+				DB6BF1791E98BA1500F7385A /* Product+CoreDataClass.h */,
+				DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */,
+				DB6BF17B1E98BA1500F7385A /* Product+CoreDataProperties.h */,
+				DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */,
 				DB6BF1521E98AEBA00F7385A /* ProjectDraft */,
 				DB6BF1511E98AEBA00F7385A /* Products */,
 			);
@@ -65,6 +81,10 @@
 				DB6BF1591E98AEBA00F7385A /* ViewController.h */,
 				DB6BF15A1E98AEBA00F7385A /* ViewController.m */,
 				DB6BF15C1E98AEBA00F7385A /* Main.storyboard */,
+				DB6BF16D1E98B0E100F7385A /* AddingViewController.h */,
+				DB6BF16E1E98B0E100F7385A /* AddingViewController.m */,
+				DB6BF1761E98B53200F7385A /* CoreDataStack.h */,
+				DB6BF1771E98B53200F7385A /* CoreDataStack.m */,
 				DB6BF1621E98AEBA00F7385A /* Assets.xcassets */,
 				DB6BF1641E98AEBA00F7385A /* LaunchScreen.storyboard */,
 				DB6BF1671E98AEBA00F7385A /* Info.plist */,
@@ -154,8 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BF15B1E98AEBA00F7385A /* ViewController.m in Sources */,
+				DB6BF17D1E98BA1500F7385A /* Product+CoreDataClass.m in Sources */,
+				DB6BF1781E98B53200F7385A /* CoreDataStack.m in Sources */,
+				DB6BF17E1E98BA1500F7385A /* Product+CoreDataProperties.m in Sources */,
 				DB6BF1611E98AEBA00F7385A /* ProjectDraft.xcdatamodeld in Sources */,
 				DB6BF1581E98AEBA00F7385A /* AppDelegate.m in Sources */,
+				DB6BF16F1E98B0E100F7385A /* AddingViewController.m in Sources */,
 				DB6BF1551E98AEBA00F7385A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
