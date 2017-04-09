@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483E3F161E9AB41A00848A6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F151E9AB41A00848A6B /* LoginViewController.m */; };
+		483E3F1B1E9AB86C00848A6B /* Administrator+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */; };
+		483E3F1C1E9AB86C00848A6B /* Administrator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */; };
 		DB6BF1551E98AEBA00F7385A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1541E98AEBA00F7385A /* main.m */; };
 		DB6BF1581E98AEBA00F7385A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1571E98AEBA00F7385A /* AppDelegate.m */; };
 		DB6BF15B1E98AEBA00F7385A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF15A1E98AEBA00F7385A /* ViewController.m */; };
@@ -21,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483E3F141E9AB41A00848A6B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		483E3F151E9AB41A00848A6B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		483E3F171E9AB86C00848A6B /* Administrator+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Administrator+CoreDataClass.h"; sourceTree = "<group>"; };
+		483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Administrator+CoreDataClass.m"; sourceTree = "<group>"; };
+		483E3F191E9AB86C00848A6B /* Administrator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Administrator+CoreDataProperties.h"; sourceTree = "<group>"; };
+		483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Administrator+CoreDataProperties.m"; sourceTree = "<group>"; };
 		DB6BF1501E98AEBA00F7385A /* ProjectDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6BF1541E98AEBA00F7385A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB6BF1561E98AEBA00F7385A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +65,10 @@
 		DB6BF1471E98AEBA00F7385A = {
 			isa = PBXGroup;
 			children = (
+				483E3F171E9AB86C00848A6B /* Administrator+CoreDataClass.h */,
+				483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */,
+				483E3F191E9AB86C00848A6B /* Administrator+CoreDataProperties.h */,
+				483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */,
 				DB6BF1791E98BA1500F7385A /* Product+CoreDataClass.h */,
 				DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */,
 				DB6BF17B1E98BA1500F7385A /* Product+CoreDataProperties.h */,
@@ -76,6 +89,8 @@
 		DB6BF1521E98AEBA00F7385A /* ProjectDraft */ = {
 			isa = PBXGroup;
 			children = (
+				483E3F141E9AB41A00848A6B /* LoginViewController.h */,
+				483E3F151E9AB41A00848A6B /* LoginViewController.m */,
 				DB6BF1561E98AEBA00F7385A /* AppDelegate.h */,
 				DB6BF1571E98AEBA00F7385A /* AppDelegate.m */,
 				DB6BF1591E98AEBA00F7385A /* ViewController.h */,
@@ -176,8 +191,11 @@
 				DB6BF15B1E98AEBA00F7385A /* ViewController.m in Sources */,
 				DB6BF17D1E98BA1500F7385A /* Product+CoreDataClass.m in Sources */,
 				DB6BF1781E98B53200F7385A /* CoreDataStack.m in Sources */,
+				483E3F1B1E9AB86C00848A6B /* Administrator+CoreDataClass.m in Sources */,
 				DB6BF17E1E98BA1500F7385A /* Product+CoreDataProperties.m in Sources */,
+				483E3F1C1E9AB86C00848A6B /* Administrator+CoreDataProperties.m in Sources */,
 				DB6BF1611E98AEBA00F7385A /* ProjectDraft.xcdatamodeld in Sources */,
+				483E3F161E9AB41A00848A6B /* LoginViewController.m in Sources */,
 				DB6BF1581E98AEBA00F7385A /* AppDelegate.m in Sources */,
 				DB6BF16F1E98B0E100F7385A /* AddingViewController.m in Sources */,
 				DB6BF1551E98AEBA00F7385A /* main.m in Sources */,
@@ -337,6 +355,7 @@
 				DB6BF16C1E98AEBA00F7385A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
