@@ -11,12 +11,12 @@
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 {
-    
     UIView *oldView;
     UIView *newView;
-    
-    
 }
+
+@property (strong, nonatomic) NSMutableArray *productArray;
+
 @property (weak, nonatomic) IBOutlet UIView *myView1;
 @property (weak, nonatomic) IBOutlet UIView *myView2;
 

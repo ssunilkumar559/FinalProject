@@ -84,7 +84,7 @@
                                 <segue destination="PkU-31-D6c" kind="show" id="WyU-uf-OgL"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Switch View" id="fby-3U-f2S">
+                        <barButtonItem key="rightBarButtonItem" title="Flip" id="fby-3U-f2S">
                             <connections>
                                 <action selector="switchViewPressed:" destination="BYZ-38-t0r" id="Qpn-Yn-fAn"/>
                             </connections>
@@ -182,31 +182,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sxd-nA-nic">
-                                <rect key="frame" x="0.0" y="79" width="157" height="30"/>
+                                <rect key="frame" x="22" y="282" width="282" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3xM-rS-IHK">
-                                <rect key="frame" x="0.0" y="117" width="157" height="30"/>
+                                <rect key="frame" x="22" y="339" width="282" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m16-ir-Rru">
-                                <rect key="frame" x="173" y="72" width="147" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCK-Rw-eP4">
-                                <rect key="frame" x="3" y="155" width="73" height="30"/>
+                                <rect key="frame" x="126" y="409" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ADD Items"/>
+                                <state key="normal" title="Add Items"/>
                                 <connections>
                                     <action selector="addItems:" destination="PkU-31-D6c" eventType="touchUpInside" id="bWh-u9-qgb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m16-ir-Rru">
+                                <rect key="frame" x="22" y="72" width="282" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -217,7 +217,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QBt-Lp-2oj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1599" y="-2"/>
+=======
+            <point key="canvasLocation" x="875.625" y="-2.112676056338028"/>
+>>>>>>> 73b8023d2f595b021c7d0fb9b26908cd554a6513
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wU2-IW-uLv">

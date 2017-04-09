@@ -11,10 +11,6 @@
 #import "Product+CoreDataProperties.h"
 
 @interface ViewController ()
-{
-    
-    NSMutableArray *productArray;
-}
 
 @end
 
@@ -43,9 +39,9 @@
         //
     }else{
         
-        productArray = [[NSMutableArray alloc] init];
+        self.productArray = [[NSMutableArray alloc] init];
 
-        [productArray addObjectsFromArray:fetchedObjects];
+        [self.productArray addObjectsFromArray:fetchedObjects];
         
     }
     
@@ -63,26 +59,16 @@
 
 -(void) viewDidAppear:(BOOL)animated
 
-
-
 {
-    [productArray removeAllObjects];
+    
+    [self.productArray removeAllObjects];
     [self getData];
     [self.tableView reloadData];
-    
-    
+
 }
 
-
-
-
-
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
-    
-    
-    return 10;
+    return self.productArray.count;
 }
 
 
@@ -92,7 +78,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     
-    Product *product = [productArray objectAtIndex:indexPath.row];
+    Product *product = [self.productArray objectAtIndex:indexPath.row];
     
     cell.textLabel.text = [NSString stringWithFormat:@"%@ - %@ ", product.pName, product.pPrice];
     
