@@ -4,11 +4,12 @@
         <attribute name="adminName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="pImage" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="pName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="pPrice" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Product" positionX="-27" positionY="18" width="128" height="75"/>
         <element name="Administrator" positionX="-27" positionY="36" width="128" height="60"/>
+        <element name="Product" positionX="-27" positionY="18" width="128" height="90"/>
     </elements>
 </model>

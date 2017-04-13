@@ -10,6 +10,15 @@
 		483E3F161E9AB41A00848A6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F151E9AB41A00848A6B /* LoginViewController.m */; };
 		483E3F1B1E9AB86C00848A6B /* Administrator+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */; };
 		483E3F1C1E9AB86C00848A6B /* Administrator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */; };
+		BA03C5F31E9BE6A400BA1590 /* JsonParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C5F21E9BE6A400BA1590 /* JsonParsing.m */; };
+		BA03C5F81E9C057900BA1590 /* Product+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C5F51E9C057900BA1590 /* Product+CoreDataClass.m */; };
+		BA03C5F91E9C057900BA1590 /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C5F71E9C057900BA1590 /* Product+CoreDataProperties.m */; };
+		BA03C6021E9D997400BA1590 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C6011E9D997400BA1590 /* CustomCollectionViewCell.m */; };
+		BA03C6051E9E931E00BA1590 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA03C6041E9E931E00BA1590 /* CoreLocation.framework */; };
+		BA03C6071E9E9D6600BA1590 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA03C6061E9E9D6600BA1590 /* MapKit.framework */; };
+		BA03C60A1E9EAD6200BA1590 /* LocationParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C6091E9EAD6200BA1590 /* LocationParsing.m */; };
+		BA03C60D1E9EFCB700BA1590 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C60C1E9EFCB700BA1590 /* MapAnnotation.m */; };
+		BA03C6101E9F172000BA1590 /* NameParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = BA03C60F1E9F171F00BA1590 /* NameParsing.m */; };
 		DB6BF1551E98AEBA00F7385A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1541E98AEBA00F7385A /* main.m */; };
 		DB6BF1581E98AEBA00F7385A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1571E98AEBA00F7385A /* AppDelegate.m */; };
 		DB6BF15B1E98AEBA00F7385A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF15A1E98AEBA00F7385A /* ViewController.m */; };
@@ -19,8 +28,6 @@
 		DB6BF1661E98AEBA00F7385A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6BF1641E98AEBA00F7385A /* LaunchScreen.storyboard */; };
 		DB6BF16F1E98B0E100F7385A /* AddingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF16E1E98B0E100F7385A /* AddingViewController.m */; };
 		DB6BF1781E98B53200F7385A /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF1771E98B53200F7385A /* CoreDataStack.m */; };
-		DB6BF17D1E98BA1500F7385A /* Product+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */; };
-		DB6BF17E1E98BA1500F7385A /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,22 @@
 		483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Administrator+CoreDataClass.m"; sourceTree = "<group>"; };
 		483E3F191E9AB86C00848A6B /* Administrator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Administrator+CoreDataProperties.h"; sourceTree = "<group>"; };
 		483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Administrator+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BA03C5F11E9BE6A400BA1590 /* JsonParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParsing.h; sourceTree = "<group>"; };
+		BA03C5F21E9BE6A400BA1590 /* JsonParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParsing.m; sourceTree = "<group>"; };
+		BA03C5F41E9C057900BA1590 /* Product+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataClass.h"; sourceTree = "<group>"; };
+		BA03C5F51E9C057900BA1590 /* Product+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataClass.m"; sourceTree = "<group>"; };
+		BA03C5F61E9C057900BA1590 /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BA03C5F71E9C057900BA1590 /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BA03C6001E9D997400BA1590 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		BA03C6011E9D997400BA1590 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		BA03C6041E9E931E00BA1590 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA03C6061E9E9D6600BA1590 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA03C6081E9EAD6200BA1590 /* LocationParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationParsing.h; sourceTree = "<group>"; };
+		BA03C6091E9EAD6200BA1590 /* LocationParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationParsing.m; sourceTree = "<group>"; };
+		BA03C60B1E9EFCB700BA1590 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		BA03C60C1E9EFCB700BA1590 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		BA03C60E1E9F171F00BA1590 /* NameParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameParsing.h; sourceTree = "<group>"; };
+		BA03C60F1E9F171F00BA1590 /* NameParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameParsing.m; sourceTree = "<group>"; };
 		DB6BF1501E98AEBA00F7385A /* ProjectDraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectDraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6BF1541E98AEBA00F7385A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB6BF1561E98AEBA00F7385A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,10 +68,6 @@
 		DB6BF16E1E98B0E100F7385A /* AddingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddingViewController.m; sourceTree = "<group>"; };
 		DB6BF1761E98B53200F7385A /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = ../CoreDataStack.h; sourceTree = "<group>"; };
 		DB6BF1771E98B53200F7385A /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = ../CoreDataStack.m; sourceTree = "<group>"; };
-		DB6BF1791E98BA1500F7385A /* Product+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataClass.h"; sourceTree = "<group>"; };
-		DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataClass.m"; sourceTree = "<group>"; };
-		DB6BF17B1E98BA1500F7385A /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Product+CoreDataProperties.h"; sourceTree = "<group>"; };
-		DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Product+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,25 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA03C6071E9E9D6600BA1590 /* MapKit.framework in Frameworks */,
+				BA03C6051E9E931E00BA1590 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA03C6031E9E931E00BA1590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA03C6061E9E9D6600BA1590 /* MapKit.framework */,
+				BA03C6041E9E931E00BA1590 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB6BF1471E98AEBA00F7385A = {
 			isa = PBXGroup;
 			children = (
+				BA03C5F41E9C057900BA1590 /* Product+CoreDataClass.h */,
+				BA03C5F51E9C057900BA1590 /* Product+CoreDataClass.m */,
+				BA03C5F61E9C057900BA1590 /* Product+CoreDataProperties.h */,
+				BA03C5F71E9C057900BA1590 /* Product+CoreDataProperties.m */,
 				483E3F171E9AB86C00848A6B /* Administrator+CoreDataClass.h */,
 				483E3F181E9AB86C00848A6B /* Administrator+CoreDataClass.m */,
 				483E3F191E9AB86C00848A6B /* Administrator+CoreDataProperties.h */,
 				483E3F1A1E9AB86C00848A6B /* Administrator+CoreDataProperties.m */,
-				DB6BF1791E98BA1500F7385A /* Product+CoreDataClass.h */,
-				DB6BF17A1E98BA1500F7385A /* Product+CoreDataClass.m */,
-				DB6BF17B1E98BA1500F7385A /* Product+CoreDataProperties.h */,
-				DB6BF17C1E98BA1500F7385A /* Product+CoreDataProperties.m */,
 				DB6BF1521E98AEBA00F7385A /* ProjectDraft */,
 				DB6BF1511E98AEBA00F7385A /* Products */,
+				BA03C6031E9E931E00BA1590 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +136,16 @@
 				DB6BF1671E98AEBA00F7385A /* Info.plist */,
 				DB6BF15F1E98AEBA00F7385A /* ProjectDraft.xcdatamodeld */,
 				DB6BF1531E98AEBA00F7385A /* Supporting Files */,
+				BA03C5F11E9BE6A400BA1590 /* JsonParsing.h */,
+				BA03C5F21E9BE6A400BA1590 /* JsonParsing.m */,
+				BA03C6001E9D997400BA1590 /* CustomCollectionViewCell.h */,
+				BA03C6011E9D997400BA1590 /* CustomCollectionViewCell.m */,
+				BA03C6081E9EAD6200BA1590 /* LocationParsing.h */,
+				BA03C6091E9EAD6200BA1590 /* LocationParsing.m */,
+				BA03C60B1E9EFCB700BA1590 /* MapAnnotation.h */,
+				BA03C60C1E9EFCB700BA1590 /* MapAnnotation.m */,
+				BA03C60E1E9F171F00BA1590 /* NameParsing.h */,
+				BA03C60F1E9F171F00BA1590 /* NameParsing.m */,
 			);
 			path = ProjectDraft;
 			sourceTree = "<group>";
@@ -189,16 +230,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BF15B1E98AEBA00F7385A /* ViewController.m in Sources */,
-				DB6BF17D1E98BA1500F7385A /* Product+CoreDataClass.m in Sources */,
 				DB6BF1781E98B53200F7385A /* CoreDataStack.m in Sources */,
 				483E3F1B1E9AB86C00848A6B /* Administrator+CoreDataClass.m in Sources */,
-				DB6BF17E1E98BA1500F7385A /* Product+CoreDataProperties.m in Sources */,
+				BA03C6021E9D997400BA1590 /* CustomCollectionViewCell.m in Sources */,
 				483E3F1C1E9AB86C00848A6B /* Administrator+CoreDataProperties.m in Sources */,
+				BA03C60A1E9EAD6200BA1590 /* LocationParsing.m in Sources */,
+				BA03C5F31E9BE6A400BA1590 /* JsonParsing.m in Sources */,
 				DB6BF1611E98AEBA00F7385A /* ProjectDraft.xcdatamodeld in Sources */,
 				483E3F161E9AB41A00848A6B /* LoginViewController.m in Sources */,
 				DB6BF1581E98AEBA00F7385A /* AppDelegate.m in Sources */,
+				BA03C5F81E9C057900BA1590 /* Product+CoreDataClass.m in Sources */,
 				DB6BF16F1E98B0E100F7385A /* AddingViewController.m in Sources */,
 				DB6BF1551E98AEBA00F7385A /* main.m in Sources */,
+				BA03C6101E9F172000BA1590 /* NameParsing.m in Sources */,
+				BA03C5F91E9C057900BA1590 /* Product+CoreDataProperties.m in Sources */,
+				BA03C60D1E9EFCB700BA1590 /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

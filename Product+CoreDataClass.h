@@ -2,7 +2,7 @@
 //  Product+CoreDataClass.h
 //  ProjectDraft
 //
-//  Created by Hasibul Shishir on 4/8/17.
+//  Created by Remotetiger_User on 4/10/17.
 //  Copyright © 2017 Hasibul Shishir. All rights reserved.
 //
 

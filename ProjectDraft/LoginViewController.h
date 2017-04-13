@@ -11,5 +11,6 @@
 @interface LoginViewController : UIViewController
 - (IBAction)btnclick:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *admintxtfld;
+@property (weak, nonatomic) IBOutlet UIButton *btn;
 
 @end

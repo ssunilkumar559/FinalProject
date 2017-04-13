@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UICollectionViewDataSource, UICollectionViewDelegate>
 
 {
     UIView *oldView;
@@ -24,7 +25,6 @@
 @property (weak, nonatomic) IBOutlet UICollectionView *myCollectionView;
 
 
--(void) getData;
 
 @end
 

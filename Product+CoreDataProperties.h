@@ -2,7 +2,7 @@
 //  Product+CoreDataProperties.h
 //  ProjectDraft
 //
-//  Created by Hasibul Shishir on 4/8/17.
+//  Created by Remotetiger_User on 4/10/17.
 //  Copyright © 2017 Hasibul Shishir. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, copy) NSString *pName;
 @property (nullable, nonatomic, copy) NSString *pPrice;
+@property (nullable, nonatomic, copy) NSString *pImage;
 
 @end
 
